@@ -1,6 +1,6 @@
 class IBApp(EWrapper, EClient):
 
-    def __init__(self):
+  def __init__(self):
         EClient.__init__(self, self)
 
         self.orders = {}
